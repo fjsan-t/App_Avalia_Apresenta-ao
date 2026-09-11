@@ -153,18 +153,27 @@
         elemento.classList.add('selecionado');
     }
 
+    const URL_APPS_SCRIPT = "https://script.google.com/macros/s/AKfycbw4z_jQNCJ9OkqrwBt3ZwdbynfiMeVe3_OVM0bowjGcsX8wkMwXuZVa0EUSTwAReYQY/exec";
+
     function enviarVotacao() {
         const email = document.getElementById('email').value.trim();
-        const caixaMensagem = document.getElementById('mensagem');
 
-        if (email === "") {
-        alert("Por favor, digite seu e-mail para concluir.");
-        return;
-    }
+        if (!email) {
+            alert("Digite seu e-mail.");
+            return;
+        }
 
-        caixaMensagem.style.display = 'block';
-        caixaMensagem.className = 'sucesso';
-        caixaMensagem.innerText = 'Votação concluida com sucesso.';
+        fetch(URL_APPS_SCRIPT, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                email: email,
+                votos: notasSelecionadas
+            })
+        })
+        .then(() => alert("Voto registrado com sucesso!"))
+        .catch(() => alert("Erro ao enviar. Verifique sua conexão."));
     }
 </script>
 

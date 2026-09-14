@@ -38,12 +38,10 @@ const trabalhos = [
             id: 8,
             titulo: "Reset de Fábrica em Dispositivos Móveis",
             autor: "M. A. S. L. C.",
-            resumo: "Resumo sobre o trabalho apresentado."
         },
         {
             id: 9,
             titulo: "Perícia de Documentos Digitais",
             autor: "A. S. Q.",
-            resumo: "Resumo sobre o trabalho apresentado."
         }
     ];

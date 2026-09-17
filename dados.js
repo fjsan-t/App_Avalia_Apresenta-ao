@@ -43,5 +43,36 @@ const trabalhos = [
             id: 9,
             titulo: "Perícia de Documentos Digitais",
             autor: "A. S. Q.",
-        }
+        },
+        {
+            id: 10,
+            titulo: "Estimativa de Sexo por Inteligência Artificial: desenvolvimento e validação de um sistema baseado na mensuração automática do ângulo goníaco em ortopantomografias",
+            autor: "A. S. Q.",
+        },
+         {
+            id: 11,
+            titulo: "Perícia de Documentos Digitais",
+            autor: "A. S. Q.",
+        },
+         {
+            id: 10,
+            titulo: "Perícia de Documentos Digitais",
+            autor: "A. S. Q.",
+        },
+         {
+            id: 10,
+            titulo: "Perícia de Documentos Digitais",
+            autor: "A. S. Q.",
+        },
+         {
+            id: 10,
+            titulo: "Perícia de Documentos Digitais",
+            autor: "A. S. Q.",
+        },
+         {
+            id: 10,
+            titulo: "Perícia de Documentos Digitais",
+            autor: "A. S. Q.",
+        },
+        
     ];

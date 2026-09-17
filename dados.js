@@ -55,22 +55,22 @@ const trabalhos = [
             autor: "A. S. Q.",
         },
          {
-            id: 10,
+            id: 12,
             titulo: "Perícia de Documentos Digitais",
             autor: "A. S. Q.",
         },
          {
-            id: 10,
+            id: 13,
             titulo: "Perícia de Documentos Digitais",
             autor: "A. S. Q.",
         },
          {
-            id: 10,
+            id: 14,
             titulo: "Perícia de Documentos Digitais",
             autor: "A. S. Q.",
         },
          {
-            id: 10,
+            id: 15,
             titulo: "Perícia de Documentos Digitais",
             autor: "A. S. Q.",
         },

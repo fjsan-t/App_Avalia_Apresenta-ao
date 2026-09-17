@@ -1,78 +1,43 @@
 const trabalhos = [
         {
             id: 1,
-            titulo: "Sistema de Gestão e Estatística Pericial (Sgep): Ferramenta de Business Intelligence ",
-            autor: "J. B.N.C. – PT, J.P.P.N. – PML",
+            titulo: "Inteligência Artificial Aplicada à Perícia de Comparação Facial ",
+            autor: "Antônio César Morant Braid (PC)",
         },
         {
             id: 2,
-            titulo: "Necropapiloscopia e a Classificação de Risco de Manchester: A Implementação do Fluxograma de Atendimentos Prioritários no Âmbito do Instituto Médico-Legal.",
-            autor: "A.C.S.S. - PT",
+            titulo: "Restauração de Serial Obliterado em Chassi de Veículos Automotores.",
+            autor: "Sérgio Selma dos Santos (PC)",
         },
         {
             id: 3,
-            titulo: "Maturidade da Gestão do Conhecimento da Polícia Técnica da Bahia: Percepção dos Gestores na Dimensão Pessoas",
-            autor: "Z. S. M.",
+            titulo: "Reset de Fábrica em Dispositivos Móveis: Implicações Forenses na Destruição de Provas Digitais",
+            autor: "Marcelo A. Sampaio L. Costa (PC).",
         },
         {
             id: 4,
-            titulo: "Restauração de Serial Obliterado em Chassi de Veículos Automotores",
-            autor: "S. S. SATOS",
+            titulo: "Perícia de Documentos Digitais: Proposta de Procedimento para Análise",
+            autor: "Lince Lima Santos (PC), Fabio Leandro dos Santos Correia (PML), Dayana Souza Barbosa Santos (PC)",
         },
         {
             id: 5,
-            titulo: "Inteligência Artificial Aplicada À Perícia De Comparação Facial.",
-            autor: "Fulano de Tal",
+            titulo: "Palinologia Forense Aplicada na Determinação de Autoria de Furto por Meio de Simulação em Área Rural da Caatinga.",
+            autor: "Ernani Machado de Freitas Lins Neto (PC), Francisco Hilder Magalhães e Silva",
         },
         {
             id: 6,
-            titulo: "Estimativa de Sexo por Inteligência Artificial: Desenvolvimento e Validação de um Sistema Baseado na Mensuração Automática do Ângulo Goníaco em Ortopantomografias",
-            autor: "P. H. V. P.",
+            titulo: "Estimativa de Velocidades de Motocicletas em Atropelamentos com Vítimas Fatais: Dois Estudos de Caso",
+            autor: "Ernani Machado de Freitas Lins Neto (PC), Otaviano Bruno Ferreira Novais (PC), Ronielly Santana Coelho (PC), Ana Beatriz Rodrigues Massaranduba (PC), Mateus Souza Galvão (PC).",
         },
         {
             id: 7,
-            titulo: "Acurácia na Comparação Facial Forense: Um Estudo as Cegas do Desempenho de um Perito Criminal.",
-            autor: "A. C. . B. C. e  G. N. S.",
+            titulo: "Produção de Câmaras de Vaporização de Cianoacrilato de Baixo Custo: Impactos na Elucidação de Homicídios no Interior do Estado.",
+            autor: "Gerlon Santos Souza (PT).",
         },
         {
             id: 8,
-            titulo: "Reset de Fábrica em Dispositivos Móveis",
-            autor: "M. A. S. L. C.",
-        },
-        {
-            id: 9,
-            titulo: "Perícia de Documentos Digitais",
-            autor: "A. S. Q.",
-        },
-        {
-            id: 10,
-            titulo: "Estimativa de Sexo por Inteligência Artificial: desenvolvimento e validação de um sistema baseado na mensuração automática do ângulo goníaco em ortopantomografias",
-            autor: "A. S. Q.",
-        },
-         {
-            id: 11,
-            titulo: "Perícia de Documentos Digitais",
-            autor: "A. S. Q.",
-        },
-         {
-            id: 12,
-            titulo: "Perícia de Documentos Digitais",
-            autor: "A. S. Q.",
-        },
-         {
-            id: 13,
-            titulo: "Perícia de Documentos Digitais",
-            autor: "A. S. Q.",
-        },
-         {
-            id: 14,
-            titulo: "Perícia de Documentos Digitais",
-            autor: "A. S. Q.",
-        },
-         {
-            id: 15,
-            titulo: "Perícia de Documentos Digitais",
-            autor: "A. S. Q.",
-        },
+            titulo: "Aplicação Integrada da Osteologia e Toxicologia Forense na Investigação de Restos Mortais Animais: Relato de Caso.",
+            autor: "Lince Lima Santos (PC), Fabio Leandro dos Santos Correia (PML), Dayana Souza Barbosa Santos (PC).",
+        }
         
     ];

@@ -13,8 +13,12 @@
         .card-trabalho { background: #eef4fa; border: 1px solid #e2e8f0; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
         .card-trabalho h3 { font-weight: 500; margin: 0 0 5px 0; color: #0c0d0f; font-size: 1.1rem; }
         .autor { font-weight: bold; color: #0e218a; font-size: 0.9rem; margin-bottom: 8px; }
+
+        .card-detalhes { text-align: left; margin: 10px 0; }
+        .card-detalhes summary { cursor: pointer; color: #0066cc; font-weight: bold; }
+        .card-detalhes div { background: #e7f5ff; padding: 10px; border-radius: 6px; margin-top: 6px; }
+        .card-detalhes p { margin: 4px 0; }
         
-    
         .label-nota { font-size: 0.85rem; font-weight: bold; display: block; margin-bottom: 8px; }
         .escala-notas { display: flex; gap: 4px; flex-wrap: wrap; }
         .btn-nota { flex: 1 1 40px; height: 40px; border: 1px solid #cbd5e0; background: white; border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.2s; }
@@ -78,6 +82,13 @@
             card.innerHTML = `
                 <h3>${trab.titulo}</h3>
                 <div class="autor">Apresentador: ${trab.autor}</div>
+                <details class="card-detalhes">
+                    <summary>📄 Ver detalhes do trabalho</summary>
+                    <div>
+                        <p><strong>Coautores:</strong> ${trab.coautores}</p>
+                        <p><strong>Resumo:</strong> ${trab.resumo}</p>
+                    </div>
+                </details>
                 <span class="label-nota">Atribua sua nota (5 a 50):</span>
                 <div class="escala-notas" id="escala-${trab.id}">
                     ${botoesHTML}
